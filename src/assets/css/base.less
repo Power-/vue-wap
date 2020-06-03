@@ -1,0 +1,107 @@
+/* 基础公共样式 */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input,
+img,
+textarea {
+    vertical-align: middle;
+    border: 0;
+}
+
+body,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline-style: none;
+    -webkit-text-size-adjust: 100% !important;
+}
+
+i {
+    font-style: normal;
+}
+
+b {
+    font-weight: 400;
+}
+
+input {
+    border-radius: 0;
+    outline: none;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+u,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+body {
+    font-family: system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        segoe ui,
+        Roboto,
+        'Microsoft YaHei',
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #8c8c8c;
+    background: #f6f6f6;
+    max-width: 750px;
+    overflow-x: hidden;
+    margin: 0 auto !important;
+    min-width: 320px;
+}
+
+.lf {
+    float: left;
+}
+
+.rg {
+    float: right;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+    height: 0;
+}
