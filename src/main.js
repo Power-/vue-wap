@@ -3,7 +3,7 @@ import App from "./App.vue";
 import router from "./router";
 import "./assets/css/base.less";
 // rem h5 适配
-import 'amfe-flexible/index.js'
+// import "amfe-flexible/index.js";
 import filters from "./utils/filters";
 
 Vue.config.productionTip = false;

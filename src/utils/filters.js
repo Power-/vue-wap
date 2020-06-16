@@ -1,6 +1,6 @@
 export default {
   // 金额输入框，过滤器 ;
-  moneyFilter: function (numStr) {
+  moneyFilter: function(numStr) {
     numStr = numStr.replace(/[^\d|.]/g, "");
     numStr = numStr.replace(/^\./g, "0.");
     numStr = numStr.replace(/\.{2,}/g, ".");
@@ -14,7 +14,7 @@ export default {
   },
 
   //百分数格式化
-  rateFormate: function (rate) {
+  rateFormate: function(rate) {
     let num = Number(rate);
     if (num === 0) {
       return "0.0";
@@ -28,7 +28,7 @@ export default {
    * 5000 => 5,000
    * @param {string|number} num 金额
    */
-  formateMoneyUnit: function (num) {
+  formateMoneyUnit: function(num) {
     try {
       let ret = Number(num);
       if (ret / 10000 >= 1) {
